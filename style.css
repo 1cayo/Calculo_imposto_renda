@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(118, 16, 16);    
+}
+
+.centro{
+   text-align: center;
+   margin: 200px;
+   background-color: blanchedalmond;
+   border-radius: 25px;
+   padding: 50px; 
+   border: 10px solid black;
+   border-color:rgb(63, 7, 7);
+}
+
+button{
+    padding: 10px;
+    border-radius: 12px;
+    margin-top: 12px;
+}
+
+button:hover{
+    background-color: rgb(130, 21, 21); 
+    color: white; 
+}
+
+.formulario{
+    margin: 12px;
+
+    
+}
+
+.texto-salarioo{
+    margin-top: 12px;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
