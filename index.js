@@ -27,9 +27,11 @@ function salario(){
         porcentagem = 0.075
         imposto = (salario * porcentagem) - aliquotaA
         console.log(imposto)
-    } else {
+    } else if (salario < 2259.00){
         console.log("Isento")
         document.getElementById("texto-salario").textContent = "Isento";
+    } else{
+        document.getElementById("texto-salario").textContent = "Apenas valores númericos recebidos!";
     }
 
     document.getElementById("texto-salario").textContent = "R$ " + imposto.toFixed(2) + " | " + porcentagem.toFixed(2) + " %"
